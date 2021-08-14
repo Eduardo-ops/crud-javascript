@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Elemento com id "main" */
+#main{
+    border: 1px solid #BEBEBE;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+
+}
+
+/* Elemento com id "titulo-topo" */
+#titulo-topo{
+    border-bottom: 1px solid #BEBEBE;
+    background: #BFEFFF;
+    padding: 20px;
+}
+
+/* Elemento <p> dentro de elemento com id "titulo-topo" */
+#titulo-topo p{
+    font-family: Arial Narrow, sans-serif;
+    font-size: 1.5em;
+    color: #2F4F4F;
+}
+
+/* Elemento <fieldset> formatado com estilo css */
+fieldset{
+    border: none;
+}
+
+/* Elemento com id "formulario" */
+#formulario{
+    margin: 40px;
+    font-size: 1.4em;
+    color: #2F4F4F;
+    font-family: Arial Narrow, sans-serif;
+}
+
+/* Elemento <input> formatado com estilo css */
+input{
+    border: 1px solid #BEBEBE;
+    border-radius: 5px;
+    outline-color: #BCD2EE;
+    margin: 10px 0 30px 0;
+    padding: 8px;
+    color: #2F4F4F;
+    width: 95%;
+    font-size: 0.8em;
+}
+
+/* Elemento <input> com classe "submit" */
+input.submit{
+    background: #4169E1;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    width: 120px;
+    cursor: pointer;
+}
