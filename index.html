@@ -10,35 +10,51 @@
 </head>
 
 <body>
+    <script src="./src/js/inedx.js"></script>
 
+    <!-- Início de contéudo principal -->
     <div id="main">
 
         <div id="titulo-topo">
             <p>Criar</p>
         </div>
 
+        <!-- Início de formulário -->
         <div id="formulario">
-            <form>
+            <form onsubmit="event.preventDefault();formSubmit();">
                 <fieldset>
                     <div>
-                        <label for="nome">Nome:</label><br>
+                        <label>Nome:</label><br>
                         <input type="text" name="nome" id="nome">
                     </div>
                     <div>
-                        <label for="email">E-mail:</label><br>
+                        <label>E-mail:</label><br>
                         <input type="text" name="email" id="email">
                     </div>
                     <div>
-                        <label for="contato">Contato:</label><br>
+                        <label>Contato:</label><br>
                         <input type="text" name="contato" id="contato">
                     </div>
 
                     <input class="submit" type="submit" value="Salvar">
                 </fieldset>
             </form>
-        </div>
+        </div> <!-- Fim de formulário -->
 
-    </div>
+    </div> <!-- Início de contéudo principal -->
+
+    <table class="list" id="userList">
+        <thead>
+            <tr>
+                <th>Nome Completo</th>
+                <th>E-mail</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
 
 </body>
 

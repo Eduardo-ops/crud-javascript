@@ -61,3 +61,16 @@ input.submit{
     width: 120px;
     cursor: pointer;
 }
+
+.list{
+    border: 1px solid #BEBEBE;
+    margin: 40px auto;
+    width: 50%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
