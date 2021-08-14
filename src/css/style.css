@@ -62,12 +62,14 @@ input.submit{
     cursor: pointer;
 }
 
+/* Elemento com classe "list" */
 .list{
     border: 1px solid #BEBEBE;
     margin: 40px auto;
     width: 50%;
 }
 
+/* Elemento <a> estilizado */
 a{
     cursor: pointer;
     text-decoration: underline;
